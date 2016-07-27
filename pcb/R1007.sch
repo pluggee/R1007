@@ -21,386 +21,264 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L GND #PWR?
-U 1 1 575B45D5
-P 4400 3450
-F 0 "#PWR?" H 4400 3200 50  0001 C CNN
-F 1 "GND" V 4400 3250 50  0000 C CNN
-F 2 "" H 4400 3450 50  0000 C CNN
-F 3 "" H 4400 3450 50  0000 C CNN
-	1    4400 3450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L HT #PWR?
-U 1 1 575B4666
-P 2900 2750
-F 0 "#PWR?" H 2900 2870 50  0001 C CNN
-F 1 "HT" V 2900 2875 50  0000 C CNN
-F 2 "" H 2900 2750 50  0000 C CNN
-F 3 "" H 2900 2750 50  0000 C CNN
-	1    2900 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 575B49F9
-P 2900 2450
-F 0 "#PWR?" H 2900 2300 50  0001 C CNN
-F 1 "+5V" V 2900 2650 50  0000 C CNN
-F 2 "" H 2900 2450 50  0000 C CNN
-F 3 "" H 2900 2450 50  0000 C CNN
-	1    2900 2450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 575B4A7F
-P 4400 2450
-F 0 "#PWR?" H 4400 2300 50  0001 C CNN
-F 1 "+3.3V" V 4400 2675 50  0000 C CNN
-F 2 "" H 4400 2450 50  0000 C CNN
-F 3 "" H 4400 2450 50  0000 C CNN
-	1    4400 2450
-	0    1    1    0   
-$EndComp
-Text GLabel 2850 2250 0    39   BiDi ~ 0
-PX1
-Text GLabel 2850 2150 0    39   BiDi ~ 0
-PX2
-Text GLabel 2850 2050 0    39   BiDi ~ 0
-PX3
-Text GLabel 2850 1950 0    39   BiDi ~ 0
-PX4
-Text GLabel 1200 1850 0    39   Input ~ 0
-SCL
-Text GLabel 1200 1750 0    39   BiDi ~ 0
-SDA
-Text Label 2750 1850 0    39   ~ 0
-SCL
-Text Label 2750 1750 0    39   ~ 0
-SDA
-Text GLabel 8100 2250 2    39   BiDi ~ 0
+Text GLabel 5750 1650 3    39   BiDi ~ 0
 ID0
-Text GLabel 8100 2150 2    39   BiDi ~ 0
+Text GLabel 5450 1650 3    39   BiDi ~ 0
 ID1
-Text GLabel 8100 2050 2    39   BiDi ~ 0
+Text GLabel 5150 1650 3    39   BiDi ~ 0
 ID2
-Text GLabel 8100 1950 2    39   BiDi ~ 0
-ID3
-Text GLabel 8100 1850 2    39   BiDi ~ 0
-RESERVED0
-Text GLabel 8100 1750 2    39   BiDi ~ 0
-SCLK
-$Comp
-L PCIEXPRESS-X1 J?
-U 1 1 575CF2BC
-P 3650 2350
-F 0 "J?" H 3300 3650 60  0000 L CNN
-F 1 "PCIEXPRESS-X1" H 3300 3550 39  0000 L CNN
-F 2 "Main:PCIEXPRESS-X1" H 3300 1550 28  0000 L CNN
-F 3 "" H 3600 2250 60  0000 C CNN
-F 4 "Amphenol FCI" H 3400 3750 60  0001 C CNN "Manufacturer"
-F 5 "10018784-10200TLF" H 3500 3850 60  0001 C CNN "MPN"
-	1    3650 2350
-	1    0    0    1   
-$EndComp
-Text Label 4275 2250 0    39   ~ 0
-ID0
-Text Label 4275 2150 0    39   ~ 0
-ID1
-Text Label 4275 2050 0    39   ~ 0
-ID2
-Text Label 4275 1950 0    39   ~ 0
-ID3
-Text Label 4275 1850 0    39   ~ 0
-RESERVED0
-Text Label 4275 1750 0    39   ~ 0
-SCLK
-Text Notes 8725 2025 2    39   ~ 0
+Text Notes 4275 1525 2    39   ~ 0
 I2C Socket ID
-Text Notes 1975 2125 0    39   ~ 0
+Text Notes 900  1525 0    39   ~ 0
 MCU Realtime Controls
-Text Notes 725  1825 0    39   ~ 0
+Text Notes 1300 1225 0    39   ~ 0
 I2C Port
-Text GLabel 2600 1650 0    39   Input ~ 0
-~MRESET
-Text Label 2750 1650 0    39   ~ 0
-~MRESET
-Text Notes 1925 1675 0    39   ~ 0
+Text Notes 1175 1075 0    39   ~ 0
 MCU Reset
-Text GLabel 8100 1650 2    39   BiDi ~ 0
-C2D
-Text Label 4275 1650 0    39   ~ 0
+Text GLabel 4550 1650 3    39   BiDi ~ 0
 C2D
 $Comp
 L R_Small R?
 U 1 1 576AD847
-P 4650 1250
-F 0 "R?" H 4709 1317 50  0000 L CNN
-F 1 "10k" H 4709 1226 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 4709 1159 20  0000 L CNN
-F 3 "" H 4650 1250 50  0000 C CNN
-	1    4650 1250
+P 4550 1400
+F 0 "R?" H 4609 1467 50  0000 L CNN
+F 1 "10k" H 4609 1376 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 4500 1225 20  0000 L CNN
+F 3 "" H 4550 1400 50  0000 C CNN
+	1    4550 1400
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R?
-U 1 1 576AD9B9
-P 5650 1250
-F 0 "R?" H 5709 1317 50  0000 L CNN
-F 1 "10k" H 5709 1226 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 5709 1159 20  0000 L CNN
-F 3 "" H 5650 1250 50  0000 C CNN
-	1    5650 1250
+L CONN_R1000A_EXTENSION U?
+U 1 1 57980268
+P 2750 1500
+F 0 "U?" H 2250 2100 60  0000 L CNN
+F 1 "CONN_R1000A_EXTENSION" H 2250 2400 60  0001 L CNN
+F 2 "Main:CONN127P-02X10" H 2250 900 39  0000 L CNN
+F 3 "" H 2550 1500 60  0000 C CNN
+F 4 "CNC Tech" H 2250 2200 60  0001 L CNN "Manufacturer"
+F 5 "3221-20-0200-00" H 2250 2300 60  0001 L CNN "MPN"
+F 6 "STUFF" H 2250 800 39  0000 L CNN "SKU"
+	1    2750 1500
 	1    0    0    -1  
 $EndComp
+Text GLabel 1800 1050 0    39   Input ~ 0
+~MRESET
+Text GLabel 1800 1150 0    39   BiDi ~ 0
+SDA
+Text GLabel 1800 1250 0    39   Input ~ 0
+SCL
+Text GLabel 1800 1350 0    39   BiDi ~ 0
+PX4
+Text GLabel 1800 1450 0    39   BiDi ~ 0
+PX3
+Text GLabel 1800 1550 0    39   BiDi ~ 0
+PX2
+Text GLabel 1800 1650 0    39   BiDi ~ 0
+PX1
 $Comp
-L R_Small R?
-U 1 1 576ADA01
-P 6150 1250
-F 0 "R?" H 6209 1317 50  0000 L CNN
-F 1 "10k" H 6209 1226 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 6209 1159 20  0000 L CNN
-F 3 "" H 6150 1250 50  0000 C CNN
-	1    6150 1250
-	1    0    0    -1  
+L +5V #PWR?
+U 1 1 57980FF6
+P 1800 1750
+F 0 "#PWR?" H 1800 1600 50  0001 C CNN
+F 1 "+5V" V 1800 1950 50  0000 C CNN
+F 2 "" H 1800 1750 50  0000 C CNN
+F 3 "" H 1800 1750 50  0000 C CNN
+	1    1800 1750
+	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R?
-U 1 1 576ADA54
-P 6650 1250
-F 0 "R?" H 6709 1317 50  0000 L CNN
-F 1 "10k" H 6709 1226 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 6709 1159 20  0000 L CNN
-F 3 "" H 6650 1250 50  0000 C CNN
-	1    6650 1250
-	1    0    0    -1  
+L HT #PWR?
+U 1 1 579811DB
+P 1800 1850
+F 0 "#PWR?" H 1800 1970 50  0001 C CNN
+F 1 "HT" V 1800 1975 50  0000 C CNN
+F 2 "" H 1800 1850 50  0000 C CNN
+F 3 "" H 1800 1850 50  0000 C CNN
+	1    1800 1850
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3650 1050 2    39   BiDi ~ 0
+C2D
+Text GLabel 3650 1150 2    39   BiDi ~ 0
+SCLK
+Text GLabel 3650 1250 2    39   BiDi ~ 0
+RESERVED0
+Text GLabel 3650 1350 2    39   BiDi ~ 0
+ID3
+Text GLabel 3650 1450 2    39   BiDi ~ 0
+ID2
+Text GLabel 3650 1550 2    39   BiDi ~ 0
+ID1
+Text GLabel 3650 1650 2    39   BiDi ~ 0
+ID0
+$Comp
+L +3.3V #PWR?
+U 1 1 579822C2
+P 3650 1750
+F 0 "#PWR?" H 3650 1600 50  0001 C CNN
+F 1 "+3.3V" V 3650 1975 50  0000 C CNN
+F 2 "" H 3650 1750 50  0000 C CNN
+F 3 "" H 3650 1750 50  0000 C CNN
+	1    3650 1750
+	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R?
-U 1 1 576ADA9C
-P 7150 1250
-F 0 "R?" H 7209 1317 50  0000 L CNN
-F 1 "10k" H 7209 1226 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 7209 1159 20  0000 L CNN
-F 3 "" H 7150 1250 50  0000 C CNN
-	1    7150 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R?
-U 1 1 576ADECE
-P 1900 1250
-F 0 "R?" H 1959 1317 50  0000 L CNN
-F 1 "10k" H 1959 1226 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 1959 1159 20  0000 L CNN
-F 3 "" H 1900 1250 50  0000 C CNN
-	1    1900 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R?
-U 1 1 576ADFC2
-P 1400 1250
-F 0 "R?" H 1459 1317 50  0000 L CNN
-F 1 "10k" H 1459 1226 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 1459 1159 20  0000 L CNN
-F 3 "" H 1400 1250 50  0000 C CNN
-	1    1400 1250
-	1    0    0    -1  
+L GND #PWR?
+U 1 1 57982486
+P 3650 1850
+F 0 "#PWR?" H 3650 1600 50  0001 C CNN
+F 1 "GND" V 3650 1650 50  0000 C CNN
+F 2 "" H 3650 1850 50  0000 C CNN
+F 3 "" H 3650 1850 50  0000 C CNN
+	1    3650 1850
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +3.3V #PWR?
-U 1 1 576AE120
-P 3450 850
-F 0 "#PWR?" H 3450 700 50  0001 C CNN
-F 1 "+3.3V" H 3450 1000 50  0000 C CNN
-F 2 "" H 3450 850 50  0000 C CNN
-F 3 "" H 3450 850 50  0000 C CNN
-	1    3450 850 
+U 1 1 57982C44
+P 4550 1000
+F 0 "#PWR?" H 4550 850 50  0001 C CNN
+F 1 "+3.3V" H 4550 1150 50  0000 C CNN
+F 2 "" H 4550 1000 50  0000 C CNN
+F 3 "" H 4550 1000 50  0000 C CNN
+	1    4550 1000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 2750 4300 3450
-Wire Wire Line
-	4200 2850 4300 2850
-Connection ~ 4300 2850
-Wire Wire Line
-	4200 2950 4300 2950
-Connection ~ 4300 2950
-Wire Wire Line
-	4200 3050 4300 3050
-Connection ~ 4300 3050
-Wire Wire Line
-	4200 3150 4300 3150
-Connection ~ 4300 3150
-Wire Wire Line
-	4200 3250 4300 3250
-Connection ~ 4300 3250
-Wire Wire Line
-	4200 3350 4300 3350
-Connection ~ 4300 3350
-Wire Wire Line
-	3000 2750 3000 3450
-Wire Wire Line
-	3100 3350 3000 3350
-Connection ~ 3000 3350
-Wire Wire Line
-	3100 3250 3000 3250
-Connection ~ 3000 3250
-Wire Wire Line
-	3100 3150 3000 3150
-Connection ~ 3000 3150
-Wire Wire Line
-	3100 3050 3000 3050
-Connection ~ 3000 3050
-Wire Wire Line
-	3100 2950 3000 2950
-Connection ~ 3000 2950
-Wire Wire Line
-	3100 2850 3000 2850
-Connection ~ 3000 2850
-Wire Wire Line
-	4200 3450 4400 3450
-Wire Wire Line
-	2900 2750 3100 2750
-Wire Wire Line
-	4200 2450 4400 2450
-Wire Wire Line
-	4300 2450 4300 2650
-Wire Wire Line
-	4300 2650 4200 2650
-Connection ~ 4300 2450
-Wire Wire Line
-	4200 2550 4300 2550
-Connection ~ 4300 2550
-Wire Wire Line
-	2900 2450 3100 2450
-Wire Wire Line
-	3000 2450 3000 2650
-Wire Wire Line
-	3000 2650 3100 2650
-Connection ~ 3000 2450
-Wire Wire Line
-	3100 2550 3000 2550
-Connection ~ 3000 2550
-Wire Wire Line
-	3000 3450 3100 3450
-Wire Wire Line
-	4300 2750 4200 2750
-Connection ~ 4300 3450
-Connection ~ 3000 2750
-Wire Wire Line
-	2850 1950 3100 1950
-Wire Wire Line
-	3100 2050 2850 2050
-Wire Wire Line
-	3100 2150 2850 2150
-Wire Wire Line
-	3100 2250 2850 2250
-Wire Wire Line
-	1200 1750 3100 1750
-Wire Wire Line
-	3100 1850 1200 1850
-Wire Wire Line
-	8100 2250 4200 2250
-Wire Wire Line
-	8100 2150 4200 2150
-Wire Wire Line
-	8100 2050 4200 2050
-Wire Wire Line
-	8100 1950 4200 1950
-Wire Wire Line
-	8100 1850 4200 1850
-Wire Wire Line
-	8100 1750 4200 1750
-Wire Wire Line
-	2600 1650 3100 1650
-Wire Wire Line
-	8100 1650 4200 1650
-Wire Wire Line
-	4650 1350 4650 1650
-Connection ~ 4650 1650
-Wire Wire Line
-	5650 1350 5650 1950
-Connection ~ 5650 1950
-Wire Wire Line
-	6150 1350 6150 2050
-Connection ~ 6150 2050
-Wire Wire Line
-	6650 1350 6650 2150
-Connection ~ 6650 2150
-Wire Wire Line
-	7150 1350 7150 2250
-Connection ~ 7150 2250
-Wire Wire Line
-	1400 1350 1400 1750
-Connection ~ 1400 1750
-Wire Wire Line
-	1900 1350 1900 1850
-Connection ~ 1900 1850
-Wire Wire Line
-	3450 850  3450 1000
-Wire Wire Line
-	1400 1000 7150 1000
-Wire Wire Line
-	1400 1000 1400 1150
-Wire Wire Line
-	1900 1150 1900 1000
-Connection ~ 1900 1000
-Wire Wire Line
-	7150 1000 7150 1150
-Connection ~ 3450 1000
-Wire Wire Line
-	4650 1150 4650 1000
-Connection ~ 4650 1000
-Wire Wire Line
-	5650 1150 5650 1000
-Connection ~ 5650 1000
-Wire Wire Line
-	6150 1150 6150 1000
-Connection ~ 6150 1000
-Wire Wire Line
-	6650 1150 6650 1000
-Connection ~ 6650 1000
+Text GLabel 4850 1650 3    39   BiDi ~ 0
+ID3
 $Comp
-L CONN254P-02X05 J?
-U 1 1 5795C9B8
-P 6600 4950
-F 0 "J?" H 6450 5275 50  0000 L CNN
-F 1 "CONN254P-02X05" H 6450 5350 50  0000 L CNN
-F 2 "Main:CONN254P-02X05" H 6450 4625 20  0000 L CNN
-F 3 "" H 6500 5200 50  0000 C CNN
-F 4 "3M" H 6450 5425 60  0001 L CNN "Manufacturer"
-F 5 "30310-5002HB" H 6450 5525 60  0001 L CNN "MPN"
-F 6 "STUFF" H 6450 4575 39  0000 L CNN "SKU"
-	1    6600 4950
+L R_Small R?
+U 1 1 579830B5
+P 4850 1400
+F 0 "R?" H 4909 1467 50  0000 L CNN
+F 1 "10k" H 4909 1376 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 4800 1225 20  0000 L CNN
+F 3 "" H 4850 1400 50  0000 C CNN
+	1    4850 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 6050 4750 0    39   BiDi ~ 0
-PX4
+$Comp
+L R_Small R?
+U 1 1 57983360
+P 5150 1400
+F 0 "R?" H 5209 1467 50  0000 L CNN
+F 1 "10k" H 5209 1376 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 5100 1225 20  0000 L CNN
+F 3 "" H 5150 1400 50  0000 C CNN
+	1    5150 1400
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6050 4750 6300 4750
-Text GLabel 6050 4850 0    39   BiDi ~ 0
-PX3
+	1800 1050 2050 1050
 Wire Wire Line
-	6050 4850 6300 4850
-Text GLabel 6050 4950 0    39   BiDi ~ 0
-PX2
+	1800 1150 2050 1150
 Wire Wire Line
-	6050 4950 6300 4950
-Text GLabel 6050 5050 0    39   BiDi ~ 0
-PX1
+	1800 1250 2050 1250
 Wire Wire Line
-	6050 5050 6300 5050
-Text GLabel 6050 5150 0    39   Input ~ 0
-SCL
-Text GLabel 7150 5150 2    39   BiDi ~ 0
-SDA
+	2050 1350 1800 1350
 Wire Wire Line
-	6300 5150 6050 5150
+	1800 1450 2050 1450
 Wire Wire Line
-	7150 5150 6900 5150
+	1800 1550 2050 1550
+Wire Wire Line
+	1800 1650 2050 1650
+Wire Wire Line
+	1800 1750 2050 1750
+Wire Wire Line
+	1800 1850 2050 1850
+Wire Wire Line
+	2050 1950 1950 1950
+Wire Wire Line
+	1950 1950 1950 1850
+Connection ~ 1950 1850
+Wire Wire Line
+	3650 1050 3450 1050
+Wire Wire Line
+	3650 1150 3450 1150
+Wire Wire Line
+	3650 1250 3450 1250
+Wire Wire Line
+	3650 1350 3450 1350
+Wire Wire Line
+	3650 1450 3450 1450
+Wire Wire Line
+	3650 1550 3450 1550
+Wire Wire Line
+	3450 1650 3650 1650
+Wire Wire Line
+	3650 1750 3450 1750
+Wire Wire Line
+	3450 1850 3650 1850
+Wire Wire Line
+	3550 1950 3450 1950
+Wire Wire Line
+	3550 1850 3550 1950
+Connection ~ 3550 1850
+Wire Wire Line
+	4550 1500 4550 1650
+Wire Wire Line
+	4550 1000 4550 1300
+Wire Wire Line
+	5150 1500 5150 1650
+Wire Wire Line
+	4850 1500 4850 1650
+$Comp
+L R_Small R?
+U 1 1 5798352E
+P 5450 1400
+F 0 "R?" H 5509 1467 50  0000 L CNN
+F 1 "10k" H 5509 1376 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 5400 1225 20  0000 L CNN
+F 3 "" H 5450 1400 50  0000 C CNN
+	1    5450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5798373C
+P 5750 1400
+F 0 "R?" H 5809 1467 50  0000 L CNN
+F 1 "10k" H 5809 1376 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 5700 1225 20  0000 L CNN
+F 3 "" H 5750 1400 50  0000 C CNN
+	1    5750 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1300 5750 1100
+Wire Wire Line
+	4550 1100 6050 1100
+Connection ~ 4550 1100
+Wire Wire Line
+	4850 1300 4850 1100
+Connection ~ 4850 1100
+Wire Wire Line
+	5150 1300 5150 1100
+Connection ~ 5150 1100
+Wire Wire Line
+	5450 1300 5450 1100
+Connection ~ 5450 1100
+Wire Wire Line
+	5750 1500 5750 1650
+Wire Wire Line
+	5450 1650 5450 1500
+$Comp
+L R_Small R?
+U 1 1 5798489F
+P 6050 1400
+F 0 "R?" H 6109 1467 50  0000 L CNN
+F 1 "10k" H 6109 1376 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 6000 1225 20  0000 L CNN
+F 3 "" H 6050 1400 50  0000 C CNN
+	1    6050 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 6050 1650 3    39   Input ~ 0
+~MRESET
+Wire Wire Line
+	6050 1500 6050 1650
+Wire Wire Line
+	6050 1100 6050 1300
+Connection ~ 5750 1100
 $EndSCHEMATC
