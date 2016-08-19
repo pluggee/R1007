@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/sherif/git/R1007/pcb/R1007.sch</source>
+    <date>Fri 19 Aug 2016 03:58:39 PM PDT</date>
+    <tool>Eeschema 4.0.2+e4-6225~38~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>R1007.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576AD847</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579830B5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57983360</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5798352E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5798373C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5798489F</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>PSMN1R2-30YLC</value>
+      <footprint>Main:SOT127P500X110-5</footprint>
+      <fields>
+        <field name="Manufacturer">NXP Semiconductors</field>
+        <field name="MPN">PSMN1R2-30YLC,115</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <libsource lib="devices" part="PSMN1R2-30YLC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5798E5AA</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>PSMN1R2-30YLC</value>
+      <footprint>Main:SOT127P500X110-5</footprint>
+      <fields>
+        <field name="Manufacturer">NXP Semiconductors</field>
+        <field name="MPN">PSMN1R2-30YLC,115</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <libsource lib="devices" part="PSMN1R2-30YLC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5798E8F6</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>PSMN1R2-30YLC</value>
+      <footprint>Main:SOT127P500X110-5</footprint>
+      <fields>
+        <field name="Manufacturer">NXP Semiconductors</field>
+        <field name="MPN">PSMN1R2-30YLC,115</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <libsource lib="devices" part="PSMN1R2-30YLC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5798E947</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>PSMN1R2-30YLC</value>
+      <footprint>Main:SOT127P500X110-5</footprint>
+      <fields>
+        <field name="Manufacturer">NXP Semiconductors</field>
+        <field name="MPN">PSMN1R2-30YLC,115</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <libsource lib="devices" part="PSMN1R2-30YLC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5798E999</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN500P-01X08</value>
+      <footprint>Main:CONN500P-01X08</footprint>
+      <fields>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="MPN">1935226</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <libsource lib="connect" part="CONN500P-01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57994D86</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TLP293-4</value>
+      <footprint>Main:SOIC127P1030X455X210-16</footprint>
+      <fields>
+        <field name="Manufacturer">Toshiba Semiconductor and Storage</field>
+        <field name="MPN">TLP293-4(GB-TP,E</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <libsource lib="analog" part="TLP293-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579A03FF</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579A0902</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579A0ED0</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AS78L05ZTR-E1</value>
+      <footprint>Main:TO92_AMMO</footprint>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">AS78L05ZTR-E1</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <libsource lib="analog" part="AS78L05ZTR-E1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579A667B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN500P-01X04</value>
+      <footprint>Main:CONN500P-01X04</footprint>
+      <fields>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="MPN">1935187</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <libsource lib="connect" part="CONN500P-01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579A8D77</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_R1000A_EXTENSION</value>
+      <footprint>Main:CONN127P-02X10</footprint>
+      <fields>
+        <field name="Manufacturer">CNC Tech</field>
+        <field name="MPN">3221-20-0200-00</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <libsource lib="connect" part="CONN_R1000A_EXTENSION"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579AAB46</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579AB175</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579ABD3F</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579B0713</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579B0719</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579B0AA4</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579B0AAA</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579B11F5</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579B11FB</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74HC125</value>
+      <footprint>Main:SOIC127P870X390X175-14</footprint>
+      <fields>
+        <field name="Manufacturer">NXP Semiconductors</field>
+        <field name="MPN">74HC125D,653</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <libsource lib="logic" part="74HC125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579C1D48</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Led_Small</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579C8075</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579C81DE</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579C8C55</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579C8D3D</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579C8D53</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Led_Small</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579C93E0</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Led_Small</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579C946D</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>Led_Small</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579C94F7</tstamp>
+    </comp>
+    <comp ref="MP1">
+      <value>MECH_NPTH_M3</value>
+      <footprint>Main:MECH_NPTH_M3</footprint>
+      <libsource lib="connect" part="MECH_NPTH_M3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579CD62F</tstamp>
+    </comp>
+    <comp ref="MP2">
+      <value>MECH_NPTH_M3</value>
+      <footprint>Main:MECH_NPTH_M3</footprint>
+      <libsource lib="connect" part="MECH_NPTH_M3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579CDA1A</tstamp>
+    </comp>
+    <comp ref="MP4">
+      <value>MECH_NPTH_M3</value>
+      <footprint>Main:MECH_NPTH_M3</footprint>
+      <libsource lib="connect" part="MECH_NPTH_M3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579CDAA7</tstamp>
+    </comp>
+    <comp ref="MP3">
+      <value>MECH_NPTH_M3</value>
+      <footprint>Main:MECH_NPTH_M3</footprint>
+      <libsource lib="connect" part="MECH_NPTH_M3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579CDB3D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="logic" part="74HC125">
+      <description>CMOS Quad buffer/line driver 3-state</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC125</field>
+        <field name="Footprint">Main:SOIC127P870X390X175-14</field>
+        <field name="Manufacturer">NXP Semiconductors</field>
+        <field name="MPN">74HC125D,653</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1~OE" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1Y" type="output"/>
+        <pin num="4" name="2~OE" type="input"/>
+        <pin num="5" name="2A" type="input"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="3Y" type="output"/>
+        <pin num="9" name="3A" type="input"/>
+        <pin num="10" name="3~OE" type="input"/>
+        <pin num="11" name="4Y" type="output"/>
+        <pin num="12" name="4A" type="input"/>
+        <pin num="13" name="4~OE" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="analog" part="AS78L05ZTR-E1">
+      <description>Linear Voltage Regulator IC Positive Fixed 1 Output 5V 100mA TO-92</description>
+      <footprints>
+        <fp>eSSOP-20_4.4x6.5mm_Pitch0.65mm_TP</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AS78L05ZTR-E1</field>
+        <field name="Footprint">Main:TO92_AMMO</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">AS78L05ZTR-E1</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTPUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="INPUT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="connect" part="CONN500P-01X04">
+      <description>Phoenix Contacts 4-pin Wire to Board Connector</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN500P-01X04</field>
+        <field name="Footprint">Main:CONN500P-01X04</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="MPN">1935187</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_out"/>
+        <pin num="2" name="2" type="power_out"/>
+        <pin num="3" name="3" type="power_out"/>
+        <pin num="4" name="4" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="connect" part="CONN500P-01X08">
+      <description>Phoenix Contacts 8-pin Wire to Board Connector</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN500P-01X08</field>
+        <field name="Footprint">Main:CONN500P-01X08</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="MPN">1935226</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_out"/>
+        <pin num="2" name="2" type="power_out"/>
+        <pin num="3" name="3" type="power_out"/>
+        <pin num="4" name="4" type="power_out"/>
+        <pin num="5" name="5" type="power_out"/>
+        <pin num="6" name="6" type="power_out"/>
+        <pin num="7" name="7" type="power_out"/>
+        <pin num="8" name="8" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="connect" part="CONN_R1000A_EXTENSION">
+      <description>R1000A Extenstion Connector : 20 pin 50 Mil connector 2x10</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_R1000A_EXTENSION</field>
+        <field name="Footprint">Main:CONN127P-02X10</field>
+        <field name="Manufacturer">CNC Tech</field>
+        <field name="MPN">3221-20-0200-00</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~MRESET" type="BiDi"/>
+        <pin num="2" name="C2D" type="BiDi"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="SCLK" type="BiDi"/>
+        <pin num="5" name="SCL" type="BiDi"/>
+        <pin num="6" name="RESERVED0" type="BiDi"/>
+        <pin num="7" name="PX4" type="BiDi"/>
+        <pin num="8" name="ID3" type="BiDi"/>
+        <pin num="9" name="PX3" type="BiDi"/>
+        <pin num="10" name="ID2" type="BiDi"/>
+        <pin num="11" name="PX2" type="BiDi"/>
+        <pin num="12" name="ID1" type="BiDi"/>
+        <pin num="13" name="PX1" type="BiDi"/>
+        <pin num="14" name="ID0" type="BiDi"/>
+        <pin num="15" name="5V" type="BiDi"/>
+        <pin num="16" name="3V3" type="BiDi"/>
+        <pin num="17" name="HT" type="BiDi"/>
+        <pin num="18" name="GND" type="BiDi"/>
+        <pin num="19" name="HT" type="BiDi"/>
+        <pin num="20" name="GND" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Led_Small">
+      <description>Led</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connect" part="MECH_NPTH_M3">
+      <description>M3 2.6 Non-Plated Through Hole</description>
+      <fields>
+        <field name="Reference">MP</field>
+        <field name="Value">MECH_NPTH_M3</field>
+        <field name="Footprint">Main:MECH_NPTH_M3</field>
+      </fields>
+    </libpart>
+    <libpart lib="devices" part="PSMN1R2-30YLC">
+      <description>N-channel 30 V 1.25mΩ logic level MOSFET in LFPAK using NextPower technology</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PSMN1R2-30YLC</field>
+        <field name="Footprint">Main:SOT127P500X110-5</field>
+        <field name="Manufacturer">NXP Semiconductors</field>
+        <field name="MPN">PSMN1R2-30YLC,115</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="analog" part="TLP293-4">
+      <description>Optoisolator Transistor Output 3750Vrms 4 Channel 16-SO</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLP293-4</field>
+        <field name="Footprint">Main:SOIC127P1030X455X210-16</field>
+        <field name="Manufacturer">Toshiba Semiconductor and Storage</field>
+        <field name="MPN">TLP293-4(GB-TP,E</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="~" type="BiDi"/>
+        <pin num="6" name="~" type="BiDi"/>
+        <pin num="7" name="~" type="BiDi"/>
+        <pin num="8" name="~" type="BiDi"/>
+        <pin num="9" name="~" type="BiDi"/>
+        <pin num="10" name="~" type="BiDi"/>
+        <pin num="11" name="~" type="BiDi"/>
+        <pin num="12" name="~" type="BiDi"/>
+        <pin num="13" name="~" type="BiDi"/>
+        <pin num="14" name="~" type="BiDi"/>
+        <pin num="15" name="~" type="BiDi"/>
+        <pin num="16" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="connect">
+      <uri>/home/sherif/git/KiCADLibs/sch/connect.lib</uri>
+    </library>
+    <library logical="devices">
+      <uri>/home/sherif/git/KiCADLibs/sch/devices.lib</uri>
+    </library>
+    <library logical="logic">
+      <uri>/home/sherif/git/KiCADLibs/sch/logic.lib</uri>
+    </library>
+    <library logical="analog">
+      <uri>/home/sherif/git/KiCADLibs/sch/analog.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/INR3">
+      <node ref="R8" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="2" name="+5P">
+      <node ref="U3" pin="14"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J3" pin="18"/>
+      <node ref="R9" pin="2"/>
+      <node ref="J3" pin="20"/>
+    </net>
+    <net code="4" name="PX4">
+      <node ref="J3" pin="7"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="5" name="/INR4">
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="6" name="/INR1">
+      <node ref="R10" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="7" name="/INR2">
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="8" name="VDD">
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J1" pin="6"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D2-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="10" name="GNDPWR">
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="4"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="12" name="/GN2">
+      <node ref="Q2" pin="4"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="13" name="/GN3">
+      <node ref="D3" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="Q3" pin="4"/>
+    </net>
+    <net code="14" name="/GN1">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="11"/>
+      <node ref="Q1" pin="4"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="16" name="/N1">
+      <node ref="J1" pin="7"/>
+      <node ref="Q1" pin="5"/>
+    </net>
+    <net code="17" name="/N2">
+      <node ref="J1" pin="5"/>
+      <node ref="Q2" pin="5"/>
+    </net>
+    <net code="18" name="/N3">
+      <node ref="Q3" pin="5"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="20" name="/N4">
+      <node ref="J1" pin="1"/>
+      <node ref="Q4" pin="5"/>
+    </net>
+    <net code="21" name="/GN4">
+      <node ref="D4" pin="2"/>
+      <node ref="Q4" pin="4"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="22" name="/IGN1">
+      <node ref="R14" pin="1"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="23" name="/IGN2">
+      <node ref="U1" pin="9"/>
+      <node ref="U3" pin="13"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="24" name="/IGN3">
+      <node ref="U1" pin="5"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="25" name="/IGN4">
+      <node ref="U3" pin="9"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="26" name="+5V">
+      <node ref="J3" pin="15"/>
+    </net>
+    <net code="27" name="+3V3">
+      <node ref="J3" pin="16"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="28" name="ID0">
+      <node ref="J3" pin="14"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="29" name="ID1">
+      <node ref="J3" pin="12"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="30" name="ID2">
+      <node ref="R3" pin="2"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="31" name="ID3">
+      <node ref="J3" pin="8"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="32" name="RESERVED0">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="33" name="SCLK">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="34" name="C2D">
+      <node ref="R1" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="35" name="PX1">
+      <node ref="U3" pin="1"/>
+      <node ref="J3" pin="13"/>
+    </net>
+    <net code="36" name="PX2">
+      <node ref="J3" pin="11"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="37" name="PX3">
+      <node ref="U3" pin="5"/>
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="38" name="SCL">
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="39" name="SDA">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="40" name="~MRESET">
+      <node ref="R6" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="41" name="HT">
+      <node ref="J3" pin="17"/>
+      <node ref="J3" pin="19"/>
+    </net>
+  </nets>
+</export>
