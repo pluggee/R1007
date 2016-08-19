@@ -1,2 +1,2 @@
 # R1007
-Quad 50A DC Low Side NFET Control Switches
+Quad 20A DC Low Side NFET Control Switches
