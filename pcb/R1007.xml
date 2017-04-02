@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/sherif/git/R1007/pcb/R1007.sch</source>
-    <date>Fri 19 Aug 2016 03:58:39 PM PDT</date>
-    <tool>Eeschema 4.0.2+e4-6225~38~ubuntu14.04.1-stable</tool>
+    <date>Sun 02 Apr 2017 04:00:30 PM PDT</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
+        <title>R1007: Quad 20A DC Low Side NFET Control Switches</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>v1.1</rev>
+        <date>2017-04-01</date>
         <source>R1007.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -19,48 +19,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="R1">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>576AD847</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579830B5</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>57983360</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5798352E</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5798373C</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5798489F</tstamp>
-    </comp>
     <comp ref="Q1">
       <value>PSMN1R2-30YLC</value>
       <footprint>Main:SOT127P500X110-5</footprint>
@@ -133,20 +91,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579A03FF</tstamp>
     </comp>
-    <comp ref="R7">
-      <value>1k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579A0902</tstamp>
-    </comp>
-    <comp ref="R11">
-      <value>4.7k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579A0ED0</tstamp>
-    </comp>
     <comp ref="U2">
       <value>AS78L05ZTR-E1</value>
       <footprint>Main:TO92_AMMO</footprint>
@@ -158,18 +102,6 @@
       <libsource lib="analog" part="AS78L05ZTR-E1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579A667B</tstamp>
-    </comp>
-    <comp ref="J2">
-      <value>CONN500P-01X04</value>
-      <footprint>Main:CONN500P-01X04</footprint>
-      <fields>
-        <field name="Manufacturer">Phoenix Contact</field>
-        <field name="MPN">1935187</field>
-        <field name="SKU">STUFF</field>
-      </fields>
-      <libsource lib="connect" part="CONN500P-01X04"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579A8D77</tstamp>
     </comp>
     <comp ref="J3">
       <value>CONN_R1000A_EXTENSION</value>
@@ -183,62 +115,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579AAB46</tstamp>
     </comp>
-    <comp ref="C2">
-      <value>1uF</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579AB175</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>1uF</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <libsource lib="device" part="C_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579ABD3F</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>1k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579B0713</tstamp>
-    </comp>
-    <comp ref="R12">
-      <value>4.7k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579B0719</tstamp>
-    </comp>
-    <comp ref="R9">
-      <value>1k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579B0AA4</tstamp>
-    </comp>
-    <comp ref="R13">
-      <value>4.7k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579B0AAA</tstamp>
-    </comp>
-    <comp ref="R10">
-      <value>1k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579B11F5</tstamp>
-    </comp>
-    <comp ref="R14">
-      <value>4.7k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579B11FB</tstamp>
-    </comp>
     <comp ref="U1">
       <value>74HC125</value>
       <footprint>Main:SOIC127P870X390X175-14</footprint>
@@ -250,62 +126,6 @@
       <libsource lib="logic" part="74HC125"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579C1D48</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>Led_Small</value>
-      <footprint>LEDs:LED_0805</footprint>
-      <libsource lib="device" part="Led_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579C8075</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>1k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579C81DE</tstamp>
-    </comp>
-    <comp ref="R16">
-      <value>1k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579C8C55</tstamp>
-    </comp>
-    <comp ref="R17">
-      <value>1k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579C8D3D</tstamp>
-    </comp>
-    <comp ref="R18">
-      <value>1k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <libsource lib="device" part="R_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579C8D53</tstamp>
-    </comp>
-    <comp ref="D2">
-      <value>Led_Small</value>
-      <footprint>LEDs:LED_0805</footprint>
-      <libsource lib="device" part="Led_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579C93E0</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>Led_Small</value>
-      <footprint>LEDs:LED_0805</footprint>
-      <libsource lib="device" part="Led_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579C946D</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>Led_Small</value>
-      <footprint>LEDs:LED_0805</footprint>
-      <libsource lib="device" part="Led_Small"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>579C94F7</tstamp>
     </comp>
     <comp ref="MP1">
       <value>MECH_NPTH_M3</value>
@@ -334,6 +154,310 @@
       <libsource lib="connect" part="MECH_NPTH_M3"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>579CDB3D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LTW-170TK</value>
+      <footprint>Main:DIOC200X120X110</footprint>
+      <fields>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="MPN">LTW-170TK</field>
+        <field name="SKU">COMMON</field>
+        <field name="Color">WHITE</field>
+      </fields>
+      <libsource lib="devices" part="LTW-170TK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E0B827</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LTW-170TK</value>
+      <footprint>Main:DIOC200X120X110</footprint>
+      <fields>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="MPN">LTW-170TK</field>
+        <field name="SKU">COMMON</field>
+        <field name="Color">WHITE</field>
+      </fields>
+      <libsource lib="devices" part="LTW-170TK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E0BFAF</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LTW-170TK</value>
+      <footprint>Main:DIOC200X120X110</footprint>
+      <fields>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="MPN">LTW-170TK</field>
+        <field name="SKU">COMMON</field>
+        <field name="Color">WHITE</field>
+      </fields>
+      <libsource lib="devices" part="LTW-170TK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E0C261</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LTW-170TK</value>
+      <footprint>Main:DIOC200X120X110</footprint>
+      <fields>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="MPN">LTW-170TK</field>
+        <field name="SKU">COMMON</field>
+        <field name="Color">WHITE</field>
+      </fields>
+      <libsource lib="devices" part="LTW-170TK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E0C3BB</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>RC0603FR-071KL</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">1.00 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-071KL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E155D9</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>RC0603FR-071KL</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">1.00 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-071KL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E1619A</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>RC0603FR-071KL</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">1.00 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-071KL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E16DC7</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>RC0603FR-071KL</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">1.00 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-071KL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E16F0F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>CC0603KRX7R9BB104</value>
+      <footprint>Main:CAPC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SKU">STUFF</field>
+        <field name="C">100 nF</field>
+        <field name="Tol">±10%</field>
+        <field name="Vmax">50.0V</field>
+        <field name="Type">X7R</field>
+      </fields>
+      <libsource lib="cap_smd" part="CC0603KRX7R9BB104"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E17DC2</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>CC0603KRX7R9BB104</value>
+      <footprint>Main:CAPC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SKU">STUFF</field>
+        <field name="C">100 nF</field>
+        <field name="Tol">±10%</field>
+        <field name="Vmax">50.0V</field>
+        <field name="Type">X7R</field>
+      </fields>
+      <libsource lib="cap_smd" part="CC0603KRX7R9BB104"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E18410</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>RC0603FR-071KL</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">1.00 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-071KL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E1986C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>RC0603FR-071KL</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">1.00 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-071KL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E1A9FE</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>RC0603FR-071KL</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">1.00 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-071KL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E1B2E2</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>RC0603FR-071KL</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">1.00 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-071KL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E1BC82</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>RC0603FR-074K7L</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">4.7 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-074K75L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E1D301</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>RC0603FR-074K7L</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">4.7 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-074K75L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E1E0CF</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>RC0603FR-074K7L</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">4.7 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-074K75L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E1F05A</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>RC0603FR-074K7L</value>
+      <footprint>Main:RESC0603</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">4.7 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <libsource lib="res_smd" part="RC0603FR-074K75L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E1FFC1</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>ART</value>
+      <footprint>pluggee:pluggeeLabsIcon-13X7</footprint>
+      <libsource lib="systems" part="ART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E21DDB</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN500P-01X08</value>
+      <footprint>Main:CONN500P-01X08</footprint>
+      <fields>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="MPN">1935226</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <libsource lib="connect" part="CONN500P-01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E23E5A</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>FIDTOP001</value>
+      <footprint>Main:FIDTOP001</footprint>
+      <libsource lib="systems" part="FIDTOP001"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E19DFC</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>FIDTOP001</value>
+      <footprint>Main:FIDTOP001</footprint>
+      <libsource lib="systems" part="FIDTOP001"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E19EE2</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>FIDTOP001</value>
+      <footprint>Main:FIDTOP001</footprint>
+      <libsource lib="systems" part="FIDTOP001"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E19F6E</tstamp>
     </comp>
   </components>
   <libparts>
@@ -364,6 +488,13 @@
         <pin num="14" name="VCC" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="systems" part="ART">
+      <description>Misc artwork - assign footprint</description>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">ART</field>
+      </fields>
+    </libpart>
     <libpart lib="analog" part="AS78L05ZTR-E1">
       <description>Linear Voltage Regulator IC Positive Fixed 1 Output 5V 100mA TO-92</description>
       <footprints>
@@ -383,21 +514,27 @@
         <pin num="3" name="INPUT" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="connect" part="CONN500P-01X04">
-      <description>Phoenix Contacts 4-pin Wire to Board Connector</description>
+    <libpart lib="cap_smd" part="CC0603KRX7R9BB104">
+      <description>100 nF 0603 X7R ±10% 50.0V</description>
+      <footprints>
+        <fp>Capacitor_*</fp>
+        <fp>C_*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">CONN500P-01X04</field>
-        <field name="Footprint">Main:CONN500P-01X04</field>
-        <field name="Manufacturer">Phoenix Contact</field>
-        <field name="MPN">1935187</field>
+        <field name="Reference">C</field>
+        <field name="Value">CC0603KRX7R9BB104</field>
+        <field name="Footprint">Main:CAPC0603</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
         <field name="SKU">STUFF</field>
+        <field name="C">100 nF</field>
+        <field name="Tol">±10%</field>
+        <field name="Vmax">50.0V</field>
+        <field name="Type">X7R</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="power_out"/>
-        <pin num="2" name="2" type="power_out"/>
-        <pin num="3" name="3" type="power_out"/>
-        <pin num="4" name="4" type="power_out"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="connect" part="CONN500P-01X08">
@@ -454,33 +591,26 @@
         <pin num="20" name="GND" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="C_Small">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
+    <libpart lib="systems" part="FIDTOP001">
       <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_Small</field>
+        <field name="Reference">FID</field>
+        <field name="Value">FIDTOP001</field>
+        <field name="Footprint">Main:FIDTOP001</field>
       </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
     </libpart>
-    <libpart lib="device" part="Led_Small">
-      <description>Led</description>
+    <libpart lib="devices" part="LTW-170TK">
+      <description>LED WHITE 0805 SMD 3.3V</description>
       <footprints>
-        <fp>CP*</fp>
-        <fp>SM*</fp>
+        <fp>LED*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">Led_Small</field>
+        <field name="Value">LTW-170TK</field>
+        <field name="Footprint">Main:DIOC200X120X110</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="MPN">LTW-170TK</field>
+        <field name="SKU">COMMON</field>
+        <field name="Color">WHITE</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -513,15 +643,44 @@
         <pin num="5" name="D" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="R_Small">
-      <description>Resistor</description>
+    <libpart lib="res_smd" part="RC0603FR-071KL">
+      <description>RES 0603 1.00 kΩ ±1%</description>
       <footprints>
         <fp>Resistor_*</fp>
         <fp>R_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R_Small</field>
+        <field name="Value">RC0603FR-071KL</field>
+        <field name="Footprint">Main:RESC0603</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">1.00 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="res_smd" part="RC0603FR-074K75L">
+      <description>RES 0603 4.75 kΩ ±1%</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0603FR-074K75L</field>
+        <field name="Footprint">Main:RESC0603</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="MPN">RC0603FR-074K75L</field>
+        <field name="SKU">STUFF</field>
+        <field name="Res">4.75 kΩ</field>
+        <field name="Tol">±1%</field>
+        <field name="Pwr">100 mW</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -559,8 +718,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="logic">
+      <uri>/home/sherif/git/KiCADLibs/sch/logic.lib</uri>
+    </library>
+    <library logical="res_smd">
+      <uri>/home/sherif/git/KiCADLibs/sch/res_smd.lib</uri>
+    </library>
+    <library logical="cap_smd">
+      <uri>/home/sherif/git/KiCADLibs/sch/cap_smd.lib</uri>
     </library>
     <library logical="connect">
       <uri>/home/sherif/git/KiCADLibs/sch/connect.lib</uri>
@@ -568,228 +733,220 @@
     <library logical="devices">
       <uri>/home/sherif/git/KiCADLibs/sch/devices.lib</uri>
     </library>
-    <library logical="logic">
-      <uri>/home/sherif/git/KiCADLibs/sch/logic.lib</uri>
+    <library logical="systems">
+      <uri>/home/sherif/git/KiCADLibs/sch/systems.lib</uri>
     </library>
     <library logical="analog">
       <uri>/home/sherif/git/KiCADLibs/sch/analog.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/INR3">
-      <node ref="R8" pin="1"/>
-      <node ref="U3" pin="6"/>
+    <net code="1" name="/IGN4">
+      <node ref="R11" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U3" pin="9"/>
     </net>
-    <net code="2" name="+5P">
-      <node ref="U3" pin="14"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U3" pin="16"/>
-      <node ref="U1" pin="14"/>
-      <node ref="U3" pin="10"/>
-      <node ref="U2" pin="1"/>
-      <node ref="U3" pin="12"/>
-    </net>
-    <net code="3" name="GND">
-      <node ref="R8" pin="2"/>
-      <node ref="R7" pin="2"/>
-      <node ref="R10" pin="2"/>
-      <node ref="J3" pin="18"/>
-      <node ref="R9" pin="2"/>
-      <node ref="J3" pin="20"/>
-    </net>
-    <net code="4" name="PX4">
-      <node ref="J3" pin="7"/>
-      <node ref="U3" pin="7"/>
-    </net>
-    <net code="5" name="/INR4">
-      <node ref="R7" pin="1"/>
-      <node ref="U3" pin="8"/>
-    </net>
-    <net code="6" name="/INR1">
-      <node ref="R10" pin="1"/>
-      <node ref="U3" pin="2"/>
-    </net>
-    <net code="7" name="/INR2">
-      <node ref="R9" pin="1"/>
-      <node ref="U3" pin="4"/>
-    </net>
-    <net code="8" name="VDD">
-      <node ref="J2" pin="1"/>
-      <node ref="J1" pin="8"/>
-      <node ref="J1" pin="6"/>
-      <node ref="U2" pin="3"/>
-      <node ref="J1" pin="4"/>
-      <node ref="J1" pin="2"/>
-      <node ref="J2" pin="4"/>
-      <node ref="C1" pin="1"/>
-    </net>
-    <net code="9" name="Net-(D2-Pad1)">
-      <node ref="R16" pin="1"/>
-      <node ref="D2" pin="1"/>
-    </net>
-    <net code="10" name="GNDPWR">
-      <node ref="U1" pin="13"/>
-      <node ref="U1" pin="10"/>
-      <node ref="U1" pin="4"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="Q3" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="U1" pin="7"/>
-      <node ref="Q3" pin="3"/>
-      <node ref="Q4" pin="1"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="Q4" pin="3"/>
-      <node ref="R14" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="R13" pin="2"/>
-      <node ref="Q1" pin="3"/>
-      <node ref="J2" pin="2"/>
-      <node ref="Q2" pin="1"/>
-      <node ref="U2" pin="2"/>
-      <node ref="R12" pin="2"/>
-      <node ref="R11" pin="2"/>
-      <node ref="J2" pin="3"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="R18" pin="2"/>
-      <node ref="R17" pin="2"/>
-      <node ref="R16" pin="2"/>
-      <node ref="R15" pin="2"/>
-    </net>
-    <net code="11" name="Net-(D3-Pad1)">
-      <node ref="D3" pin="1"/>
-      <node ref="R17" pin="1"/>
-    </net>
-    <net code="12" name="/GN2">
-      <node ref="Q2" pin="4"/>
-      <node ref="D2" pin="2"/>
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="13" name="/GN3">
-      <node ref="D3" pin="2"/>
-      <node ref="U1" pin="6"/>
-      <node ref="Q3" pin="4"/>
-    </net>
-    <net code="14" name="/GN1">
+    <net code="2" name="/GN1">
       <node ref="D1" pin="2"/>
       <node ref="U1" pin="11"/>
       <node ref="Q1" pin="4"/>
     </net>
-    <net code="15" name="Net-(D1-Pad1)">
-      <node ref="R15" pin="1"/>
-      <node ref="D1" pin="1"/>
+    <net code="3" name="/GN2">
+      <node ref="U1" pin="8"/>
+      <node ref="Q2" pin="4"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="16" name="/N1">
-      <node ref="J1" pin="7"/>
-      <node ref="Q1" pin="5"/>
+    <net code="4" name="/GN3">
+      <node ref="D3" pin="2"/>
+      <node ref="Q3" pin="4"/>
+      <node ref="U1" pin="6"/>
     </net>
-    <net code="17" name="/N2">
-      <node ref="J1" pin="5"/>
-      <node ref="Q2" pin="5"/>
-    </net>
-    <net code="18" name="/N3">
-      <node ref="Q3" pin="5"/>
-      <node ref="J1" pin="3"/>
-    </net>
-    <net code="19" name="Net-(D4-Pad1)">
-      <node ref="D4" pin="1"/>
-      <node ref="R18" pin="1"/>
-    </net>
-    <net code="20" name="/N4">
-      <node ref="J1" pin="1"/>
-      <node ref="Q4" pin="5"/>
-    </net>
-    <net code="21" name="/GN4">
+    <net code="5" name="/GN4">
       <node ref="D4" pin="2"/>
-      <node ref="Q4" pin="4"/>
       <node ref="U1" pin="3"/>
+      <node ref="Q4" pin="4"/>
     </net>
-    <net code="22" name="/IGN1">
-      <node ref="R14" pin="1"/>
-      <node ref="U3" pin="15"/>
-      <node ref="U1" pin="12"/>
+    <net code="6" name="GNDPWR">
+      <node ref="R18" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="J2" pin="8"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="6"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="13"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
     </net>
-    <net code="23" name="/IGN2">
-      <node ref="U1" pin="9"/>
-      <node ref="U3" pin="13"/>
-      <node ref="R13" pin="1"/>
+    <net code="7" name="/INR3">
+      <node ref="R8" pin="1"/>
+      <node ref="U3" pin="6"/>
     </net>
-    <net code="24" name="/IGN3">
+    <net code="8" name="VDD">
+      <node ref="C1" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="8"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="9" name="+5P">
+      <node ref="U1" pin="14"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U3" pin="16"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="J3" pin="18"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J3" pin="20"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="11" name="PX4">
+      <node ref="J3" pin="7"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="12" name="/INR4">
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="13" name="/INR1">
+      <node ref="R10" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="14" name="/IGN3">
       <node ref="U1" pin="5"/>
       <node ref="R12" pin="1"/>
       <node ref="U3" pin="11"/>
     </net>
-    <net code="25" name="/IGN4">
-      <node ref="U3" pin="9"/>
-      <node ref="U1" pin="2"/>
-      <node ref="R11" pin="1"/>
+    <net code="15" name="/INR2">
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="4"/>
     </net>
-    <net code="26" name="+5V">
-      <node ref="J3" pin="15"/>
+    <net code="16" name="/N1">
+      <node ref="J1" pin="1"/>
+      <node ref="Q1" pin="5"/>
     </net>
-    <net code="27" name="+3V3">
+    <net code="17" name="/N2">
+      <node ref="J1" pin="3"/>
+      <node ref="Q2" pin="5"/>
+    </net>
+    <net code="18" name="/N3">
+      <node ref="J1" pin="5"/>
+      <node ref="Q3" pin="5"/>
+    </net>
+    <net code="19" name="/N4">
+      <node ref="J1" pin="7"/>
+      <node ref="Q4" pin="5"/>
+    </net>
+    <net code="20" name="/IGN1">
+      <node ref="U1" pin="12"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="21" name="/IGN2">
+      <node ref="R13" pin="1"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="22" name="Net-(D4-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D3-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="24" name="Net-(D2-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="25" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="26" name="~MRESET">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="27" name="RESERVED0">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="28" name="+3V3">
       <node ref="J3" pin="16"/>
-      <node ref="R6" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="R1" pin="1"/>
     </net>
-    <net code="28" name="ID0">
+    <net code="29" name="ID0">
       <node ref="J3" pin="14"/>
-      <node ref="R5" pin="2"/>
     </net>
-    <net code="29" name="ID1">
+    <net code="30" name="ID1">
       <node ref="J3" pin="12"/>
-      <node ref="R4" pin="2"/>
     </net>
-    <net code="30" name="ID2">
-      <node ref="R3" pin="2"/>
+    <net code="31" name="ID2">
       <node ref="J3" pin="10"/>
     </net>
-    <net code="31" name="ID3">
+    <net code="32" name="ID3">
       <node ref="J3" pin="8"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="32" name="RESERVED0">
-      <node ref="J3" pin="6"/>
     </net>
     <net code="33" name="SCLK">
       <node ref="J3" pin="4"/>
     </net>
     <net code="34" name="C2D">
-      <node ref="R1" pin="2"/>
       <node ref="J3" pin="2"/>
     </net>
-    <net code="35" name="PX1">
+    <net code="35" name="+5V">
+      <node ref="J3" pin="15"/>
+    </net>
+    <net code="36" name="PX1">
       <node ref="U3" pin="1"/>
       <node ref="J3" pin="13"/>
     </net>
-    <net code="36" name="PX2">
+    <net code="37" name="PX2">
       <node ref="J3" pin="11"/>
       <node ref="U3" pin="3"/>
     </net>
-    <net code="37" name="PX3">
+    <net code="38" name="PX3">
       <node ref="U3" pin="5"/>
       <node ref="J3" pin="9"/>
     </net>
-    <net code="38" name="SCL">
+    <net code="39" name="SCL">
       <node ref="J3" pin="5"/>
     </net>
-    <net code="39" name="SDA">
+    <net code="40" name="SDA">
       <node ref="J3" pin="3"/>
     </net>
-    <net code="40" name="~MRESET">
-      <node ref="R6" pin="2"/>
-      <node ref="J3" pin="1"/>
-    </net>
     <net code="41" name="HT">
-      <node ref="J3" pin="17"/>
       <node ref="J3" pin="19"/>
+      <node ref="J3" pin="17"/>
     </net>
   </nets>
 </export>

@@ -1,0 +1,26 @@
+### Module positions - created on Sun Apr  2 16:00:08 2017 ###
+### Printed by Pcbnew version kicad 4.0.6-e0-6349~53~ubuntu14.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                       PosX       PosY       Rot  Side
+C1        CC0603KRX7R9BB104  CAPC0603                  115.8000  -100.2000  180.0000  top
+C2        CC0603KRX7R9BB104  CAPC0603                  115.8000   -95.0000  180.0000  top
+Q1        PSMN1R2-30YLC      SOT127P500X110-5          159.8000   -87.3000    0.0000  top
+Q2        PSMN1R2-30YLC      SOT127P500X110-5          149.8000   -87.3000    0.0000  top
+Q3        PSMN1R2-30YLC      SOT127P500X110-5          139.8000   -87.3000    0.0000  top
+Q4        PSMN1R2-30YLC      SOT127P500X110-5          129.8000   -87.3000    0.0000  top
+R7        RC0603FR-071KL     RESC0603                  113.8000   -72.1000   90.0000  top
+R8        RC0603FR-071KL     RESC0603                  116.4000   -72.1000   90.0000  top
+R9        RC0603FR-071KL     RESC0603                  118.9000   -72.1000   90.0000  top
+R10       RC0603FR-071KL     RESC0603                  121.5000   -72.1000   90.0000  top
+R11       RC0603FR-074K7L    RESC0603                  125.2000   -91.1000  270.0000  top
+R12       RC0603FR-074K7L    RESC0603                  125.2000   -86.8000  270.0000  top
+R13       RC0603FR-074K7L    RESC0603                  114.7000   -85.8000  270.0000  top
+R14       RC0603FR-074K7L    RESC0603                  114.7000   -89.7000  270.0000  top
+R15       RC0603FR-071KL     RESC0603                  165.6000   -88.6000  270.0000  top
+R16       RC0603FR-071KL     RESC0603                  155.6000   -88.6000  270.0000  top
+R17       RC0603FR-071KL     RESC0603                  145.6000   -88.6000  270.0000  top
+R18       RC0603FR-071KL     RESC0603                  135.6000   -88.6000  270.0000  top
+U1        74HC125            SOIC127P870X390X175-14    119.6000   -87.8000  180.0000  top
+U3        TLP293-4           SOIC127P1030X455X210-16   118.3000   -77.7000  270.0000  top
+## End

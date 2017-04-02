@@ -1,4 +1,4 @@
-update=Wed 27 Jul 2016 09:18:58 AM PDT
+update=Sun 02 Apr 2017 11:34:15 AM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,15 +25,30 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=/home/sherif/git/KiCADLibs/wks/B11X17_landscape.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=$HOME/git/KiCADLibs/sch
 [eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=analog
-LibName4=connect
-LibName5=microcontroller
-LibName6=logic
-LibName7=systems
-LibName8=devices
+LibName1=R1007-rescue
+LibName2=power
+LibName3=device
+LibName4=analog
+LibName5=connect
+LibName6=microcontroller
+LibName7=logic
+LibName8=systems
+LibName9=devices
+LibName10=cap_smd
+LibName11=cap_smd_extra
+LibName12=res_smd
+LibName13=res_smd_extra
