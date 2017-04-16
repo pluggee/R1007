@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/sherif/git/R1007/pcb/R1007.sch</source>
-    <date>Sun 02 Apr 2017 04:00:30 PM PDT</date>
+    <date>Sat 15 Apr 2017 11:55:49 PM PDT</date>
     <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -718,14 +718,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="logic">
-      <uri>/home/sherif/git/KiCADLibs/sch/logic.lib</uri>
-    </library>
     <library logical="res_smd">
       <uri>/home/sherif/git/KiCADLibs/sch/res_smd.lib</uri>
     </library>
-    <library logical="cap_smd">
-      <uri>/home/sherif/git/KiCADLibs/sch/cap_smd.lib</uri>
+    <library logical="logic">
+      <uri>/home/sherif/git/KiCADLibs/sch/logic.lib</uri>
+    </library>
+    <library logical="analog">
+      <uri>/home/sherif/git/KiCADLibs/sch/analog.lib</uri>
+    </library>
+    <library logical="systems">
+      <uri>/home/sherif/git/KiCADLibs/sch/systems.lib</uri>
     </library>
     <library logical="connect">
       <uri>/home/sherif/git/KiCADLibs/sch/connect.lib</uri>
@@ -733,11 +736,8 @@
     <library logical="devices">
       <uri>/home/sherif/git/KiCADLibs/sch/devices.lib</uri>
     </library>
-    <library logical="systems">
-      <uri>/home/sherif/git/KiCADLibs/sch/systems.lib</uri>
-    </library>
-    <library logical="analog">
-      <uri>/home/sherif/git/KiCADLibs/sch/analog.lib</uri>
+    <library logical="cap_smd">
+      <uri>/home/sherif/git/KiCADLibs/sch/cap_smd.lib</uri>
     </library>
   </libraries>
   <nets>
